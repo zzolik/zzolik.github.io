@@ -1,0 +1,284 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="animate.css">
+
+	<style>
+		.container {
+			display: inline-block;
+			cursor: pointer;
+		}
+		.bar1, .bar2, .bar3 {
+			width: 35px;
+			height: 5px;
+			background-color: #3fd6bc;
+			margin: 6px 0;
+			transition: 0.4s
+		}
+		.change .bar1 {
+			-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    		transform: rotate(-45deg) translate(-9px, 6px);
+		}
+		.change .bar2 {
+			opacity: 0;
+		}
+		.change .bar3 {
+    		-webkit-transform: rotate(45deg) translate(-8px, -8px);
+    		transform: rotate(45deg) translate(-8px, -8px);
+		}
+	</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+				<a href="https://webim.ru/" target="new_blank"><img src="images/logo_webim.svg" alt="" id="logotype" title="webim.ru"></a>
+				<nav class="navbar navbar-expand-md sticky-top">
+						<div class="container-fluid">	
+							<button class="navbar-toggler" style="outline: none!important;" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+								<div class="container" onclick="myFunction(this)">
+								  <div class="bar1"></div>
+								  <div class="bar2"></div>
+								  <div class="bar3"></div>
+								</div>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarResponsive">
+								<ul class="navbar-nav mobileFone">
+									<li class="navitem fixit" style="padding-top: 10px">вход</li>
+									<li class="navitem fixit" style="padding-top: 10px">регистрация</li>
+										<div class="navbar-nav menu2">		
+											<li class="navitem">возможности</li>
+											<li class="navitem">тарифы</li>
+											<li class="navitem">партнёрам</li>
+											<li class="navitem">помощь</li>
+										<div>
+								</ul>
+							</div>
+						</div>
+				</nav>
+		</header>
+		<section id="downloadWebim" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="headers wow bounceInRight">
+				<h2 style="color: #393e6b" class="textCenter">УСТАНОВКА WEBIM</h2><br>
+				<p style="color: #7e8085;" class="textCenter">
+					Установка онлайн-консультанта Webim на ваш сайт не займет много времени. Вы можете установить онлайн-консультант Webim на ваш сайт и протестировать его в течение 7 дней бесплатно.
+				</p>
+				<button type="button" class="btn btn-info button1">ПОПРОБОВАТЬ БЕСПЛАТНО</button>
+				<button type="button" class="btn btn-outline-dark button2">ТАРИФЫ</button>
+
+			</div>
+		</section>
+		<section id="eazyDownload" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="headers wow bounceInLeft" >
+				<h2 style="color: #393e6b; text-transform: uppercase;" class="justdownload textCenter">простая установка</h2><br>
+				<p style="color: #96979b;" class="textCenter">
+					Установка онлайн-консультанта Webim не займет более 15 минут
+				</p>
+				<div style="display: flex;">
+				<span id="num1">
+					<img src="images/num1.png" alt="">
+					<img src="images/icon1.png" alt="" class="wow swing" data-wow-delay="1s" style="width: 50px; height: 50px; z-index: 1; margin: 30px 0 0 -30px;"><br><br>
+					<a href="#" onclick="return false" style="margin-left: 50px;"><u>Регистрация</u></a>
+				</span>
+				<span id="num2">
+					<img src="images/num2.png" alt="">
+					<img src="images/icon2.png" alt="" class="wow swing" data-wow-delay="1s" style="width: 50px; height: 50px; z-index: 1; margin: 30px 0 0 -30px;"><br><br>
+					<a href="#" onclick="return false";><u>Установка HTML-кода</u></a>
+				</span>
+			</div>
+			</div>
+		</section>
+			<div id="colorForText">
+				<section id="useHtmlCode">
+					<div class="headers useHtmlCode wow bounceIn">
+						<h3 style="color: #393e6b; text-transform: uppercase;" class="textCenter">установка html-кода</h3><br>
+						<ul>
+							<li><u>Установка HTML-кода Webim для сайтов на Joomla</u>
+								<p>Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>CMS Joomla.</b></p>
+							</li>
+							<li><u>Установка HTML-кода Webim для сайтов на Wordpress</u>
+								<p>Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>Wordpress.</b></p>
+							</li>
+							<li><u>Установка HTML-кода Webim для сайтов на uCoz.ru</u>
+								<p>Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>uCoz.ru.</b></p>
+							</li>
+							<li><u>Установка HTML-кода Webim для сайтов на webasyst.ru</u>
+								<p>Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>webasyst.ru.</b></p>
+							</li>
+							<li><u>Установка HTML-кода Webim для любого сайта</u>
+								<p>Документация по внедрению сервиса Webim на сайтах с другой CMS или написанных в ручную</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="downloadAplications">
+					<div class="headers useHtmlCode wow flipInX">
+						<h3 style="color: #393e6b; text-transform: uppercase;" class="textCenter">установка приложения<br> для оператора webim dashboard</h3>
+						<p style="font-size: 13px; color: #96979b;" class="textCenter">Чтобы быть на связи с клиентами всегда, установите приложение Webim Dashboard</p>
+						<ul>
+							<li><u>Установка приложения Webim Dashboard для iPhone</u>
+								<p>Документация по установке дополнительного програмного обеспечения для операторов <b>сервиса Webim,</b> использующих iPhone/iPad/etc от компании Apple</p>
+							</li>
+							<li><u>Установка приложения Webim Dashboard для Android</u>
+								<p>Документация по установке дополнительного програмного обеспечения для операторов <b>сервиса Webim,</b> использующих платформу Google Android</p>
+							</li>
+							<li><u>Установка приложения Webim Dashboard для Ubuntu</u>
+								<p>Документация по установке дополнительного програмного обеспечения для операторов <b>сервиса Webim,</b> использующих платформу Ubuntu</p>
+							</li>
+							<li><u>Установка приложения Webim Dashboard</u>
+								<p>Документация по установке дополнительного програмного обеспечения для операторов <b>сервиса Webim,</b> под OC Microsoft Windows</b></p>
+							</li>
+							<li><u>Создание приложения Webim Dashboard для Mac OS</u>
+								<p>Пошаговая инструкция создания приложения для оператора Webim для Mac OS с помощью Fluid</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+				<section id="info">
+					<div class="info headers">
+						<h3 style="color: #393e6b; text-transform: uppercase; padding-top: 25px;" class="textCenter">что вас ждет после установки</h3>
+						<p style="font-size: 12px; color: #96979b;" class="textCenter">Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет</p><br><br><br>
+						<ul>
+							<li>
+								<img src="images/step_01.svg" alt="" class="wow flip">
+								<span><strong>Шаг 1.</strong> Создание учетной записи компании и администратора</span>
+							</li>
+							<li>
+								<img src="images/step_02.svg" alt="" data-wow-delay="0.5s" class="wow flip">
+								<span><strong>Шаг 2.</strong> Активация учетной записи</span>
+							</li>
+							<li>
+								<img src="images/step_03.svg" alt="" data-wow-delay="1s" class="wow flip">
+								<span><strong>Шаг 3.</strong> Начальная настройка</span>
+							</li>
+							<li>
+								<img src="images/step_04.svg" alt="" data-wow-delay="1.5s" class="wow flip">
+								<span><strong>Шаг 4.</strong> Установка кнопки Webim на сайт</span>
+							</li>
+							<li>
+								<img src="images/step_05.svg" alt="" data-wow-delay="2s" class="wow flip">
+								<span><strong>Шаг 5.</strong> Регистрация оператора</span>
+							</li>
+							<li>
+								<img src="images/step_06.svg" alt="" data-wow-delay="2.5s" class="wow flip">
+								<span><strong>Шаг 6.</strong> Тест сервиса</span>
+							</li>
+						</ul>
+						<div class="buttons">
+							<button type="button" class="btn btn-info button3">ВСЕ ВОЗМОЖНОСТИ WEBIM</button>
+							<button type="button" class="btn btn-dark button4">ПРОТЕСТИРОВАТЬ БЕСПЛАТНО</button>
+						</div>
+					</div>
+				</section>
+				<section id="DopInfo"  class= "col-xs-12 col-sm-12 col-md-8 col-lg-8">
+					<div class="" style="width: 60%; margin: 0 0 0 50px;">
+						<p style="color: #4e5278; font-size: 14px; padding-top: 40px;">
+							Webim – это не только онлайн консультант. Интегрируйте и другие каналы,
+							чтобы клиенты могли обращаться к вам любым удобным способом
+						</p>
+					</div>
+					<ul>
+					<div>
+						<li>
+							<img src="images/sn.svg" alt="">
+							<a href="#" onclick="return false"><u>Социальные сети</u></a>
+						</li>
+						<li>
+							<img src="images/msn.svg" alt="">
+							<a href="#" onclick="return false"><u>Мессенджеры</u></a>
+						</li>
+						<li>
+							<img src="images/chatbots.svg" alt="">
+							<a href="#" onclick="return false"><u>Чат-боты</u></a>
+						</li>
+					</div>
+					<div>
+						<li>
+							<img src="images/feedback.svg" alt="">
+							<a href="#" onclick="return false"><u>Форма обратной связи</u></a>
+						</li>
+						<li>
+							<img src="images/yad.svg" alt="">
+							<a href="#" onclick="return false"><u>Яндекс.Диалоги</u></a>
+						</li>
+					</div>
+					<div>
+						<li style="display: flex;">
+							<img src="images/app.svg" alt="">
+							<a href="#" onclick="return false"><u style="text-align: center;">Чат в вашем<br> мобильном приложении</u></a>
+						</li>
+						<li>
+							<img src="images/email.svg" alt="">
+							<a href="#" onclick="return false"><u>Электронная почта</u></a>
+						</li>
+					</div>
+					</ul>
+				</section>
+				<footer>
+					<span class="lasttext" style="color: #f0f5f5; margin-left: 40px; padding-top: 25px; ;display: none;">
+						© Webim 2008-2017<br>
+						Все права защищены.
+					</span>
+					<div class="glue">
+						<div class="block1">
+							<a href="https://webim.ru/" target="new_blank"><img src="images/webim.png" alt="" title="webim.ru" style="width: 110px; height: 30px;"></a>
+							<p style="color: #b7c5de; padding-top: 10px;">
+								Webim 2008-2017<br>
+								Все права защищены
+							</p>
+						</div>
+						<div class="block2">
+							<img src="images/phone.png" alt=""><span style="color: #fff; font-size: 20px;">
+								+7 (800) 500-49-32
+							</span>
+							<p style="color: #fff; padding-top: 10px; font-size: 17px;">
+								+7 (499) 322-37-54<br>
+								<span style="color: #c8bcbf;">
+								Москва, Серебряническая набережная, 29
+							</span>
+							</p>
+							<p style="color: #fff; padding-top: 3px; font-size: 17px;">
+								+7 (812) 385-53-37<br>
+								<span style="color: #c8bcbf;">
+								Санкт-Петербург, Чкаловский проспект, 15
+							</span>
+							</p>
+						</div>
+						<div class="block3"> 
+							<p style="color: #fff;">
+								contact@webim.ru<br>
+								sales@webim.ru<br>
+								<span style="color: #c8bcbf;">понедельник-пятница c 10.00 - 18.00</span>
+							
+							</p>
+							<img src="images/soc-network.png" alt="">
+						</div>
+				</div>
+					<img src="images/message.png" style="float: right;" id="messageEnd">
+				</footer>
+		
+	</div>
+	<script src="wow.js"></script> 
+	<script>
+		function myFunction(a) {
+			a.classList.toggle("change");
+		}
+    	var wow = new WOW(
+    	  {
+    	    mobile: false
+    	  }
+    	);
+    	new WOW().init();
+	</script>         
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	bottom: 0;
+}
+header  {
+	width: 100%;
+	height: 10%;
+	background: url(images/header.png) no-repeat top;
+}
+#logotype {
+	float: right;
+	height:50px ;
+	width:150px;
+	margin-right: 20px;
+}
+header ul {
+	text-transform: uppercase;
+	cursor: pointer;
+}
+header ul li { 
+	margin: 0 20px 0 0;
+	font-style: sans-serif;
+	color: #393e6b;
+}
+header ul .menu2  {
+	position: absolute;
+	right: -35px;
+	padding-bottom: 6px;
+}
+@media screen and (max-width: 500px) {
+	#logotype {
+		margin-right: 100px;
+	}
+}
+@media screen and (max-width: 764px) {
+		header ul .menu2  {
+		position: relative !important;
+	}
+		.justdownload {
+		padding: 50px 0 1px 0;
+	}
+		.button1, .button2, .button3, .button4 {
+		width: 90%;
+		margin-top: 20px!important;
+	}
+	.useHtmlCode {
+		padding: 50px 0;
+	}
+	.button3, .button4 {
+		margin: 10px 5px 10px 20px;
+	}
+	.textCenter {
+		text-align: center;
+	}
+	footer > .glue > div, #messageEnd {
+		display: none;
+	}
+	.lasttext {
+		display: block!important;
+	}
+}
+@media screen and (max-width: 764px) {
+	.mobilefone {
+		background-color: #ffffff;
+	}
+	.mobilefone > .fixit{
+		margin-left: 35px;
+	}
+	.mobilefone .navitem {
+		padding: 5px;
+	}
+	.mobilefone .navitem:hover {
+		color: green;
+		transition: 0.3s
+	}
+	#downloadWebim {
+		padding-bottom: 50px;
+	}
+}
+#downloadWebim {
+	background-color: #eff4f4;
+	width: 100%;
+}
+@media screen and (min-width: 800px) {
+	section > .headers {
+		width: 43%;
+		margin: 0 0 0 300px;
+		padding: 70px 0 70px 0;
+	}
+	.useHtmlCode {
+		margin: 0 0 0 300px;
+		width: 40%
+	}
+
+}
+@media screen and (max-width: 800px) {
+	#downloadWebim > .headers > button{
+		display: block;
+		margin: 0 auto;
+	}
+}
+.button1 {
+	border-radius: 30px !important;
+	padding: 15px !important;
+	outline: none !important;
+	background: #2cd3b8 !important;
+}
+.button2 {
+	border-radius: 30px !important;
+	padding: 15px 100px 15px 80px !important;
+	outline: none !important;
+}
+#eazyDownload {
+	background-color: #ffffff;
+	width: 100%;
+}
+#num2 {
+margin-left: 100px;
+}
+#useHtmlCode {
+	background-color: #eff4f4;
+}
+#colorForText  ul > li > u {
+	color: #0da088;
+	font-size: 20px;
+}
+#colorForText  ul > li > p {
+	color: #74757b;
+	font-size: 13px
+}
+#downloadAplications {
+	background-color: #ffffff;
+}
+#info {
+	background-color: #eff4f4;
+}
+#info > .info > ul {
+	list-style: none;
+}
+#info > .info > ul > li > img{
+	width: 80px;
+	height: 80px;
+	margin-left: -30px;
+	padding: 10px 5px;
+}
+#info > .info > ul > li > span {
+	color: #393e6b;
+}
+.buttons > button {
+	border-radius: 30px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.buttons {
+	padding-top: 30px;
+}
+.buttons > .button3 {
+	background-color: #2cd3b8;
+	padding-right: 25px;
+}
+#DopInfo {
+	margin: 0 auto;
+}
+#DopInfo > ul > div > li > img {
+	width: 45px;
+	height: 45px;
+	padding: 5px 0;
+}
+#DopInfo > ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#DopInfo > ul > div > li > a {
+padding-left: 10px;
+}
+#DopInfo > ul > div > li {
+padding-top: 26px;
+}
+footer {
+	background-color: #393e6b;
+	padding-bottom: 55px;
+}
+.glue {
+	display: flex;
+	justify-content: space-around;
+}
+footer > .glue > div {
+	margin-top: 50px;
+}

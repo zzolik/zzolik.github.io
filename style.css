@@ -58,6 +58,9 @@ header ul .menu2  {
 	.lasttext {
 		display: block!important;
 	}
+	#num2 {
+		margin-left: 50px!important;
+	}
 }
 @media screen and (max-width: 764px) {
 	.mobilefone {

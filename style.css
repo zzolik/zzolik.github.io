@@ -7,6 +7,13 @@ header  {
 	height: 10%;
 	background: url(images/header.png) no-repeat;
 }
+@media screen and (max-width: 500px) { /*если экран меньше 500 пискелей то...*/
+	header  {
+		width: 100%;
+		height: 10%;
+		background: url(images/header.png) no-repeat center !important;
+	}
+}
 #logotype {
 	float: right;
 	height:50px ;
